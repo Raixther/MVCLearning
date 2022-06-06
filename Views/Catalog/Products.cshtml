@@ -1,0 +1,20 @@
+﻿@using RazorPagesFreeCoding.Domain
+@model IEnumerable<Product>
+@{
+    ViewData["Title"] = "Список продуктов";
+}
+
+<table class="grid">
+<tr>
+    <th>Products</th>
+</tr> 
+
+@foreach (var item in Model) {
+
+<tr>
+    <td class="left"><@item.Name></td>
+      <td class="left"><@item.Price></td>
+</tr>
+}
+
+</table>
