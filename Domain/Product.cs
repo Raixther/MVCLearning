@@ -2,13 +2,20 @@
 {
 	public class Product
 	{
-		public int Price{ get; set; }
+		public Guid Id { get; set; }
 
-		public string Name{ get; set; }
+		public string Name { get; set; }
 
-		public Product(int price, string name)
+		public decimal Price{ get; set; }
+
+		public Product(string name, decimal price)
 		{
-			Price = price; Name = name;
+			Name = name;
+			Price = price;
 		}
 	}
+
+
+
 }
+
