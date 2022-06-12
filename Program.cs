@@ -1,4 +1,5 @@
 using RazorPagesFreeCoding.Domain;
+using RazorPagesFreeCoding.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -6,6 +7,8 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddSingleton<Catalog>();
+
+builder.Services.AddScoped<IMailSender, MailSender>();
 
 
 var app = builder.Build();

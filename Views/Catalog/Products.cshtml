@@ -1,20 +1,15 @@
-﻿@using RazorPagesFreeCoding.Domain
-@model IEnumerable<Product>
+﻿@model Catalog
 @{
     ViewData["Title"] = "Список продуктов";
 }
-
-<table class="grid">
-<tr>
-    <th>Products</th>
-</tr> 
-
-@foreach (var item in Model) {
-
-<tr>
-    <td class="left"><@item.Name></td>
-      <td class="left"><@item.Price></td>
-</tr>
+          
+@if(Model == null)
+{
+    <h3>Каталог пуст</h3>
+}      
+else{
+    @foreach (var item in Model.GetAll())
+    {
+        <p>@item.Name @item.Price </p>
+    } 
 }
-
-</table>
