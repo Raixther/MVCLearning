@@ -1,45 +1,44 @@
-﻿using Microsoft.AspNetCore.Mvc;
-
+﻿
+using Serilog;
 using RazorPagesFreeCoding.Domain;
 using RazorPagesFreeCoding.Infrastructure;
+using Microsoft.AspNetCore.Mvc;
 
 namespace RazorPagesFreeCoding.Controllers
 {
 	public class CatalogController : Controller
-	{
+	{	
 
-		private readonly IMailSender _mailSender;
 
 		private readonly Catalog _catalog;
 
-		public CatalogController(Catalog catalog, IMailSender mailSender)
+		
+
+		public CatalogController(Catalog catalog)
 		{
 			_catalog = catalog;
-			_mailSender = mailSender;
-		}
+		
+		}	
+
 
 		[HttpGet]
 		public IActionResult Products()
-		{
-			
+		{			
 			return View(_catalog);
 		}
 
 		[HttpGet]
-		public IActionResult ProductsAdding()
+		public  IActionResult ProductsAdding()
 		{
-			return View();
+		 return View();
 		}
 
 
 		[HttpPost]
-		public IActionResult ProductsAdding([FromForm] string Name, decimal Price)
+		public  IActionResult ProductsAdding([FromForm] Product product)
 		{
-			var product = new Product(Name, Price);
-			_catalog.Add(product);
-			Task.Run(() => _mailSender.SendMail());
+			_catalog.Add(product);			
 			return View();
-
 		}
 	}
 }
