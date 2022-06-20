@@ -2,6 +2,6 @@
 {
 	public interface IMailSender
 	{
-		public bool SendMail();
+		public Task<bool> SendMail(string from, string body, string subject);
 	}
 }
