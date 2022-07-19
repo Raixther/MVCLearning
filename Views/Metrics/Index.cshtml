@@ -1,0 +1,9 @@
+﻿@using MVCLearning.Middleware;
+
+
+@{
+    foreach (var item in RequestCounterMiddleware.requests)
+    {
+       <P>@item.Key : @item.Value</P>
+    }
+}

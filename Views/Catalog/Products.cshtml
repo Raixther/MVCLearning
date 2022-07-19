@@ -1,20 +1,18 @@
-﻿@using RazorPagesFreeCoding.Domain
-@model IEnumerable<Product>
+﻿@model MVCLearning.Domain.Catalog
 @{
-    ViewData["Title"] = "Список продуктов";
+    ViewData["Title"] ="Список товаров";
 }
-
-<table class="grid">
-<tr>
-    <th>Products</th>
-</tr> 
-
-@foreach (var item in Model) {
-
-<tr>
-    <td class="left"><@item.Name></td>
-      <td class="left"><@item.Price></td>
-</tr>
+@{
+    if (Model is null)
+    {
+           <p>Каталог пуст</p> 
+    }
+    else
+    {<P>В каталоге: @Model.Count продуктов</P>
+         foreach (var item in Model.Products)
+        {
+            <p>@item.Value.Name @item.Value.Price </p>
+        } 
+    }
+  
 }
-
-</table>

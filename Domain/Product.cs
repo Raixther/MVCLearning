@@ -1,14 +1,13 @@
-﻿namespace RazorPagesFreeCoding.Domain
+﻿namespace MVCLearning.Domain
 {
 	public class Product
 	{
-		public int Price{ get; set; }
+		public Guid Id { get; set; } = new();
 
 		public string Name{ get; set; }
 
-		public Product(int price, string name)
-		{
-			Price = price; Name = name;
-		}
+		public decimal Price{ get; set; }
+
+		
 	}
 }
