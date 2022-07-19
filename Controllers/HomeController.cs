@@ -1,10 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System.Diagnostics;
 
-using RazorPagesFreeCoding.Models;
+using Microsoft.AspNetCore.Mvc;
 
-using System.Diagnostics;
+using MVCLearning.Models;
 
-namespace RazorPagesFreeCoding.Controllers
+namespace MVCLearning.Controllers
 {
 	public class HomeController : Controller
 	{

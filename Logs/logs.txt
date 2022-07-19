@@ -1,0 +1,218 @@
+2022-07-19 20:21:20.673 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 20:21:28.182 +03:00 [INF] Now listening on: https://localhost:7241
+2022-07-19 20:21:28.185 +03:00 [INF] Now listening on: http://localhost:5241
+2022-07-19 20:21:28.194 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 20:21:28.196 +03:00 [INF] Hosting environment: Development
+2022-07-19 20:21:28.198 +03:00 [INF] Content root path: C:\Users\User\source\repos\MVCLearning\MVCLearning\
+2022-07-19 20:21:47.371 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/ - -
+2022-07-19 20:21:48.359 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:21:51.640 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCLearning.Controllers.HomeController (MVCLearning).
+2022-07-19 20:21:51.813 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 20:22:03.387 +03:00 [INF] Executed ViewResult - view Index executed in 11575.5184ms.
+2022-07-19 20:22:03.456 +03:00 [INF] Executed action MVCLearning.Controllers.HomeController.Index (MVCLearning) in 11810.7049ms
+2022-07-19 20:22:03.614 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:22:03.714 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/ - - - 200 - text/html;+charset=utf-8 16280.9279ms
+2022-07-19 20:22:04.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/MVCLearning.styles.css?v=OZ57ZL2-QrXISZLCdTHBhgaC_uGTOLcp1Z6Jn6aohow - -
+2022-07-19 20:22:04.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/lib/bootstrap/dist/css/bootstrap.min.css - -
+2022-07-19 20:22:04.610 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - -
+2022-07-19 20:22:05.301 +03:00 [INF] Sending file. Request path: '/MVCLearning.styles.css'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\obj\Debug\net6.0\scopedcss\bundle\MVCLearning.styles.css'
+2022-07-19 20:22:05.301 +03:00 [INF] Sending file. Request path: '/css/site.css'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\wwwroot\css\site.css'
+2022-07-19 20:22:05.305 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/MVCLearning.styles.css?v=OZ57ZL2-QrXISZLCdTHBhgaC_uGTOLcp1Z6Jn6aohow - - - 200 1128 text/css 694.3288ms
+2022-07-19 20:22:05.307 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/css/site.css?v=AKvNjO3dCPPS0eSU1Ez8T2wI280i08yGycV9ndytL-c - - - 200 194 text/css 696.8550ms
+2022-07-19 20:22:05.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/lib/jquery/dist/jquery.min.js - -
+2022-07-19 20:22:05.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/lib/bootstrap/dist/js/bootstrap.bundle.min.js - -
+2022-07-19 20:22:05.435 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - -
+2022-07-19 20:22:05.436 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:22:06.192 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\wwwroot\lib\bootstrap\dist\css\bootstrap.min.css'
+2022-07-19 20:22:06.331 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/lib/bootstrap/dist/css/bootstrap.min.css - - - 200 162720 text/css 1720.2987ms
+2022-07-19 20:22:06.332 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 896.1109ms
+2022-07-19 20:22:06.336 +03:00 [INF] Sending file. Request path: '/js/site.js'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\wwwroot\js\site.js'
+2022-07-19 20:22:06.354 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/js/site.js?v=4q1jwFhaPaZgr8WAUSrux6hAuh0XDg9kPS3xIVq36I0 - - - 200 230 application/javascript 918.4791ms
+2022-07-19 20:22:06.530 +03:00 [INF] Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.bundle.min.js'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\wwwroot\lib\bootstrap\dist\js\bootstrap.bundle.min.js'
+2022-07-19 20:22:06.537 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/lib/bootstrap/dist/js/bootstrap.bundle.min.js - - - 200 78468 application/javascript 1101.2720ms
+2022-07-19 20:22:07.984 +03:00 [INF] Sending file. Request path: '/lib/jquery/dist/jquery.min.js'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\wwwroot\lib\jquery\dist\jquery.min.js'
+2022-07-19 20:22:08.034 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/lib/jquery/dist/jquery.min.js - - - 200 89476 application/javascript 2598.9170ms
+2022-07-19 20:22:13.233 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/favicon.ico - -
+2022-07-19 20:22:13.394 +03:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\User\source\repos\MVCLearning\MVCLearning\wwwroot\favicon.ico'
+2022-07-19 20:22:13.410 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/favicon.ico - - - 200 5430 image/x-icon 177.3278ms
+2022-07-19 20:22:28.637 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - -
+2022-07-19 20:22:28.915 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:22:28.938 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdding() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:22:28.953 +03:00 [INF] Executing ViewResult, running view ProductsAdding.
+2022-07-19 20:22:30.326 +03:00 [INF] Executed ViewResult - view ProductsAdding executed in 1374.4742ms.
+2022-07-19 20:22:30.332 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning) in 1381.7416ms
+2022-07-19 20:22:30.339 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:22:30.916 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - - - 200 - text/html;+charset=utf-8 2278.4931ms
+2022-07-19 20:22:31.213 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:22:31.229 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:22:31.237 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 23.4486ms
+2022-07-19 20:22:36.491 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 5262.4815ms
+2022-07-19 20:22:49.586 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7241/Catalog/ProductsAdding application/x-www-form-urlencoded 242
+2022-07-19 20:22:49.601 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:22:50.384 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductsAdding(MVCLearning.Domain.Product) on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:22:50.937 +03:00 [INF] Executing ViewResult, running view ProductsAdding.
+2022-07-19 20:22:51.140 +03:00 [INF] Executed ViewResult - view ProductsAdding executed in 203.4222ms.
+2022-07-19 20:22:51.143 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning) in 751.0966ms
+2022-07-19 20:22:51.146 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:22:51.152 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7241/Catalog/ProductsAdding application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 1565.3779ms
+2022-07-19 20:22:51.255 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:22:51.439 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:22:51.445 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 189.7947ms
+2022-07-19 20:22:51.577 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 141.3386ms
+2022-07-19 20:22:53.011 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/Products - -
+2022-07-19 20:22:53.021 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:22:53.025 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:22:53.035 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 20:22:53.078 +03:00 [INF] Executed ViewResult - view Products executed in 44.8668ms.
+2022-07-19 20:22:53.088 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.Products (MVCLearning) in 55.5993ms
+2022-07-19 20:22:53.095 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:22:53.109 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Catalog/Products - - - 200 - text/html;+charset=utf-8 98.4694ms
+2022-07-19 20:22:53.343 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:22:53.354 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:22:53.358 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.6540ms
+2022-07-19 20:22:53.399 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 45.0237ms
+2022-07-19 20:22:56.062 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Metrics - -
+2022-07-19 20:22:56.069 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.MetricsController.Index (MVCLearning)'
+2022-07-19 20:22:56.075 +03:00 [INF] Route matched with {action = "Index", controller = "Metrics"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCLearning.Controllers.MetricsController (MVCLearning).
+2022-07-19 20:22:56.086 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 20:22:56.120 +03:00 [INF] Executed ViewResult - view Index executed in 38.2971ms.
+2022-07-19 20:22:56.126 +03:00 [INF] Executed action MVCLearning.Controllers.MetricsController.Index (MVCLearning) in 44.8349ms
+2022-07-19 20:22:56.133 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.MetricsController.Index (MVCLearning)'
+2022-07-19 20:22:56.226 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Metrics - - - 200 - text/html;+charset=utf-8 163.7412ms
+2022-07-19 20:22:58.457 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:22:58.462 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:22:58.472 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.5683ms
+2022-07-19 20:22:58.498 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 35.9085ms
+2022-07-19 20:23:02.086 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/Products - -
+2022-07-19 20:23:02.096 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:23:02.098 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:23:02.108 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 20:23:02.126 +03:00 [INF] Executed ViewResult - view Products executed in 17.9893ms.
+2022-07-19 20:23:02.130 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.Products (MVCLearning) in 22.4925ms
+2022-07-19 20:23:02.133 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:23:02.140 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Catalog/Products - - - 200 - text/html;+charset=utf-8 53.2673ms
+2022-07-19 20:23:02.893 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:23:02.898 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:23:02.909 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 15.9860ms
+2022-07-19 20:23:02.945 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 47.6485ms
+2022-07-19 20:24:54.868 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 20:24:55.810 +03:00 [INF] Now listening on: https://localhost:7241
+2022-07-19 20:24:55.824 +03:00 [INF] Now listening on: http://localhost:5241
+2022-07-19 20:24:55.832 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 20:24:55.841 +03:00 [INF] Hosting environment: Development
+2022-07-19 20:24:55.842 +03:00 [INF] Content root path: C:\Users\User\source\repos\MVCLearning\MVCLearning\
+2022-07-19 20:25:00.724 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/ - -
+2022-07-19 20:25:01.747 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:25:02.704 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCLearning.Controllers.HomeController (MVCLearning).
+2022-07-19 20:25:02.846 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 20:25:04.315 +03:00 [INF] Executed ViewResult - view Index executed in 1477.6925ms.
+2022-07-19 20:25:04.472 +03:00 [INF] Executed action MVCLearning.Controllers.HomeController.Index (MVCLearning) in 1674.4696ms
+2022-07-19 20:25:04.953 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:25:05.269 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/ - - - 200 - text/html;+charset=utf-8 4690.0061ms
+2022-07-19 20:25:05.781 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:25:05.800 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:25:05.975 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 193.1821ms
+2022-07-19 20:25:06.448 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 648.0586ms
+2022-07-19 20:25:09.984 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - -
+2022-07-19 20:25:09.990 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:25:09.998 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdding() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:25:10.004 +03:00 [INF] Executing ViewResult, running view ProductsAdding.
+2022-07-19 20:25:10.090 +03:00 [INF] Executed ViewResult - view ProductsAdding executed in 87.4817ms.
+2022-07-19 20:25:10.094 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning) in 92.6984ms
+2022-07-19 20:25:10.097 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:25:10.104 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - - - 200 - text/html;+charset=utf-8 119.9617ms
+2022-07-19 20:25:10.234 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:25:10.238 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 3.2841ms
+2022-07-19 20:25:10.335 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:25:10.368 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 32.8978ms
+2022-07-19 20:25:14.951 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7241/Catalog/ProductsAdding application/x-www-form-urlencoded 247
+2022-07-19 20:25:15.021 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:25:15.090 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductsAdding(MVCLearning.Domain.Product) on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:26:40.223 +03:00 [INF] Executing ViewResult, running view ProductsAdding.
+2022-07-19 20:26:40.272 +03:00 [INF] Executed ViewResult - view ProductsAdding executed in 97.718ms.
+2022-07-19 20:26:40.275 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning) in 85178.1458ms
+2022-07-19 20:26:40.278 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:26:40.286 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7241/Catalog/ProductsAdding application/x-www-form-urlencoded 247 - 200 - text/html;+charset=utf-8 85335.2942ms
+2022-07-19 20:26:40.396 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:26:40.402 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 4.0023ms
+2022-07-19 20:26:40.505 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:26:40.520 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.5758ms
+2022-07-19 20:26:42.730 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/Products - -
+2022-07-19 20:26:42.746 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:26:42.751 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:26:42.760 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 20:29:58.553 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 20:29:59.461 +03:00 [INF] Now listening on: https://localhost:7241
+2022-07-19 20:29:59.475 +03:00 [INF] Now listening on: http://localhost:5241
+2022-07-19 20:29:59.484 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 20:29:59.487 +03:00 [INF] Hosting environment: Development
+2022-07-19 20:29:59.490 +03:00 [INF] Content root path: C:\Users\User\source\repos\MVCLearning\MVCLearning\
+2022-07-19 20:30:05.404 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/ - -
+2022-07-19 20:30:05.845 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:30:06.376 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCLearning.Controllers.HomeController (MVCLearning).
+2022-07-19 20:30:07.335 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 20:30:09.043 +03:00 [INF] Executed ViewResult - view Index executed in 1714.5734ms.
+2022-07-19 20:30:09.095 +03:00 [INF] Executed action MVCLearning.Controllers.HomeController.Index (MVCLearning) in 1796.8242ms
+2022-07-19 20:30:09.127 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:30:09.534 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/ - - - 200 - text/html;+charset=utf-8 4151.2127ms
+2022-07-19 20:30:10.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:30:10.141 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:30:10.210 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 68.8324ms
+2022-07-19 20:30:10.510 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 368.1299ms
+2022-07-19 20:30:12.754 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - -
+2022-07-19 20:30:12.773 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:30:12.779 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdding() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:30:12.786 +03:00 [INF] Executing ViewResult, running view ProductsAdding.
+2022-07-19 20:30:12.892 +03:00 [INF] Executed ViewResult - view ProductsAdding executed in 107.478ms.
+2022-07-19 20:30:12.901 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning) in 118.5127ms
+2022-07-19 20:30:12.907 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:30:12.919 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - - - 200 - text/html;+charset=utf-8 165.1550ms
+2022-07-19 20:30:13.071 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:30:13.291 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:30:13.318 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 247.1183ms
+2022-07-19 20:30:13.371 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 80.4492ms
+2022-07-19 20:30:18.337 +03:00 [INF] Request starting HTTP/2 POST https://localhost:7241/Catalog/ProductsAdding application/x-www-form-urlencoded 242
+2022-07-19 20:30:18.350 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:30:18.404 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ProductsAdding(MVCLearning.Domain.Product) on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:30:18.457 +03:00 [INF] Executing ViewResult, running view ProductsAdding.
+2022-07-19 20:30:18.475 +03:00 [INF] Executed ViewResult - view ProductsAdding executed in 17.9589ms.
+2022-07-19 20:30:18.478 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning) in 70.7176ms
+2022-07-19 20:30:18.481 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:30:18.486 +03:00 [INF] Request finished HTTP/2 POST https://localhost:7241/Catalog/ProductsAdding application/x-www-form-urlencoded 242 - 200 - text/html;+charset=utf-8 149.2866ms
+2022-07-19 20:30:18.574 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:30:18.583 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:30:18.589 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 6.8026ms
+2022-07-19 20:30:18.600 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 26.0600ms
+2022-07-19 20:30:20.012 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/Products - -
+2022-07-19 20:30:20.094 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:30:20.098 +03:00 [INF] Route matched with {action = "Products", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Products() on controller MVCLearning.Controllers.CatalogController (MVCLearning).
+2022-07-19 20:30:20.102 +03:00 [INF] Executing ViewResult, running view Products.
+2022-07-19 20:30:20.128 +03:00 [INF] Executed ViewResult - view Products executed in 26.81ms.
+2022-07-19 20:30:20.132 +03:00 [INF] Executed action MVCLearning.Controllers.CatalogController.Products (MVCLearning) in 30.5017ms
+2022-07-19 20:30:20.136 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.CatalogController.Products (MVCLearning)'
+2022-07-19 20:30:20.143 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/Catalog/Products - - - 200 - text/html;+charset=utf-8 130.8878ms
+2022-07-19 20:30:20.209 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:30:20.209 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:30:20.217 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 7.8300ms
+2022-07-19 20:30:20.256 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 46.8477ms
+2022-07-19 20:38:43.755 +03:00 [INF] User profile is available. Using 'C:\Users\User\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2022-07-19 20:38:44.612 +03:00 [INF] Now listening on: https://localhost:7241
+2022-07-19 20:38:44.627 +03:00 [INF] Now listening on: http://localhost:5241
+2022-07-19 20:38:44.640 +03:00 [INF] Application started. Press Ctrl+C to shut down.
+2022-07-19 20:38:44.644 +03:00 [INF] Hosting environment: Development
+2022-07-19 20:38:44.647 +03:00 [INF] Content root path: C:\Users\User\source\repos\MVCLearning\MVCLearning\
+2022-07-19 20:38:50.341 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/ - -
+2022-07-19 20:38:50.726 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:38:50.948 +03:00 [INF] Route matched with {action = "Index", controller = "Home"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Index() on controller MVCLearning.Controllers.HomeController (MVCLearning).
+2022-07-19 20:38:51.177 +03:00 [INF] Executing ViewResult, running view Index.
+2022-07-19 20:38:53.190 +03:00 [INF] Executed ViewResult - view Index executed in 2081.4811ms.
+2022-07-19 20:38:53.280 +03:00 [INF] Executed action MVCLearning.Controllers.HomeController.Index (MVCLearning) in 2228.0615ms
+2022-07-19 20:38:53.317 +03:00 [INF] Executed endpoint 'MVCLearning.Controllers.HomeController.Index (MVCLearning)'
+2022-07-19 20:38:53.623 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/ - - - 200 - text/html;+charset=utf-8 3300.2713ms
+2022-07-19 20:38:57.788 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - -
+2022-07-19 20:38:57.801 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/_vs/browserLink - -
+2022-07-19 20:38:57.802 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_framework/aspnetcore-browser-refresh.js - - - 200 11992 application/javascript;+charset=utf-8 14.4946ms
+2022-07-19 20:38:57.884 +03:00 [INF] Request finished HTTP/2 GET https://localhost:7241/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 83.0540ms
+2022-07-19 20:39:32.648 +03:00 [INF] Request starting HTTP/2 GET https://localhost:7241/Catalog/ProductsAdding - -
+2022-07-19 20:39:32.661 +03:00 [INF] Executing endpoint 'MVCLearning.Controllers.CatalogController.ProductsAdding (MVCLearning)'
+2022-07-19 20:39:32.667 +03:00 [INF] Route matched with {action = "ProductsAdding", controller = "Catalog"}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult ProductsAdding() on controller MVCLearning.Controllers.CatalogController (MVCLearning).

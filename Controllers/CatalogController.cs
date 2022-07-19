@@ -1,32 +1,34 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-using RazorPagesFreeCoding.Domain;
+using MVCLearning.Domain;
 
-namespace RazorPagesFreeCoding.Controllers
+namespace MVCLearning.Controllers
 {
 	public class CatalogController : Controller
 	{
-
 		private readonly Catalog _catalog;
 
 		public CatalogController(Catalog catalog)
 		{
 			_catalog = catalog;
 		}
-
 		[HttpGet]
 		public IActionResult Products()
 		{
-			
+			return View();
+		}
+		[HttpGet]
+		public IActionResult ProductsAdding()
+		{
 			return View();
 		}
 
 		[HttpPost]
-		public IActionResult ProductsAdding(Product product)
+		public async Task<IActionResult> ProductsAdding( [FromForm] Product product)
 		{
-			_catalog.Products.Add(product);
+
+			await _catalog.Add(product);
 			return View();
 		}
-
 	}
 }
